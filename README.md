@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CrossExam
 
 **Every paper is a witness. The agents cross-examine them.**
