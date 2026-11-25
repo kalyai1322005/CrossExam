@@ -1,0 +1,21 @@
+.env
+key.txt
+__pycache__/
+*.pyc
+.venv/
+data/
+eval_report.md
+.pytest_cache/
+.ruff_cache/
+infra/terraform/.terraform/
+infra/terraform/*.tfstate*
+infra/terraform/terraform.tfvars
+.crossexam/
+web/node_modules/
+web/dist/
+.claude/
+.DS_Store
+teaching/
+
+# Step 2 writes its results here; a committed copy would break the "second run is free" demo
+ladder/results.jsonl
