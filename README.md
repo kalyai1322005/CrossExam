@@ -446,6 +446,3 @@ Honest notes for anyone building on this:
 - **Queue-driven scaling** reads Redis list lengths. Each worker has already taken up to `CELERY_CONCURRENCY` tasks off the list, so KEDA sees a little less backlog than there is.
 - **Cloud Monitoring alert filters** assume the OTel exporter's default `generic_task` resource; adjust if your metrics appear under another resource type.
 - **Summarization middleware** protects long agent conversations (exception agent). Very long documents are capped at 60k characters for extraction; split them upstream if your suppliers send larger files.
-=======
-# CrossExam
->>>>>>> origin/main
