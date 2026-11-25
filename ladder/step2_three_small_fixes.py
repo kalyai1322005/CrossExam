@@ -18,7 +18,6 @@ from langchain.agents.structured_output import ToolStrategy
 from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 from pydantic import BaseModel
-
 from step1_one_agent import Invoice, read_file  # step 1 stays as it was: we only add to it
 
 MODEL = ChatGoogleGenerativeAI(model=os.environ.get("MODEL_SMALL", "gemini-3.5-flash-lite"))
