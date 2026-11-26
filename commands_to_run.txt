@@ -1,0 +1,13 @@
+1 Install and start Docker Desktop.
+2 Open Command Prompt in the project folder.
+3 Run:
+  scripts\setup.cmd
+  notepad .env
+4 Add your Gemini API key to GOOGLE_API_KEY= and save the file. Don’t share or commit your key.
+Start the app:
+  scripts\up.cmd
+5 In another Command Prompt window, create demo data:
+  scripts\demo-data.cmd 10
+6 Open http://localhost:8080. API docs are at http://localhost:8000/docs.
+
+
